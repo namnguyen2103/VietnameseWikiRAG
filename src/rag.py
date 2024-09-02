@@ -1,6 +1,6 @@
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
 import torch
-from retrieval import get_prompts
+import retrieval
 
 model_path = "vinai/PhoGPT-4B-Chat"  
 
@@ -12,7 +12,7 @@ model.eval()
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True) 
 
 def rag(question, topk=3):
-    prompt = get_prompts(question, topk=topk)
+    prompt = retrieval.get_prompts(question, topk=topk)
     input_ids = tokenizer(prompt, return_tensors="pt")
 
     outputs = model.generate(  

@@ -1,0 +1,10 @@
+transformers
+datasets==2.14.5
+rank_bm25
+sentence_transformers
+pyvi
+underthesea
+sentencepiece
+protobuf
+gdown
+einops
