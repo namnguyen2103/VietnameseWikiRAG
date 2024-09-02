@@ -6,6 +6,7 @@ A Natural Language Processing school project that aims to build a Vietnamese Que
 ## Preparation
 Download the required libraries:
 ``` bash
+cd VietnameseWikiRAG
 pip install -r requirements.txt`
 ```
 
