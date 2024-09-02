@@ -7,17 +7,17 @@ A Natural Language Processing school project that aims to build a Vietnamese Que
 Download the required libraries:
 ``` bash
 cd VietnameseWikiRAG
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 Unzip the dataset:
 ``` bash
-unzip data/data_raw10k.zip`
+unzip data/data_raw10k.zip
 ```
 
 Chunk the whole corpus and embed it:
 ``` bash
-python src/chunking_embedding.py`
+python src/chunking_embedding.py
 ```
 
 ## Future direction
