@@ -3,8 +3,8 @@
 ## Introduction
 A Natural Language Processing school project that aims to build a Vietnamese Question-Answering system based on 10,000 articles from Vietnamese Wikipedia using Retrieval Augmented Generation (RAG).
 
-## Prepare
-Download the requirements libraries:
+## Preparation
+Download the required libraries:
 ``` bash
 pip install -r requirements.txt`
 ```
@@ -20,5 +20,5 @@ python src/chunking_embedding.py`
 ```
 
 ## Future direction
-* Training my own LLM model instead of using the pretrained VinAI's PhoGPT model.
-* Enhancing the retrieval stage using advanced techniques (Query routing).
+* Train a custom LLM model instead of using the pretrained VinAI's PhoGPT model.
+* Enhance the retrieval stage using advanced techniques (e.g., query routing).
