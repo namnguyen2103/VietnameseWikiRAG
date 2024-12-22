@@ -21,5 +21,5 @@ python src/chunking_embedding.py
 ```
 
 ## Future direction
-* Train a custom LLM model instead of using the pretrained VinAI's PhoGPT model.
+* Finetune a custom LLM model instead of using the pretrained VinAI's PhoGPT model.
 * Enhance the retrieval stage using advanced techniques (e.g., query routing).
